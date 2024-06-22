@@ -1,3 +1,4 @@
 import CallToAction from './CallToAction/CallToAction'
+import ProductDetailsWithCustomButton from "./ProductDetailsCustom/ProductDetailsWithCustomButton"
 
-export default { CallToAction }
+export default { CallToAction , ProductDetailsWithCustomButton }
