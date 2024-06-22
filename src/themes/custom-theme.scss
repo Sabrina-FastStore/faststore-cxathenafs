@@ -8,7 +8,11 @@
     // --------------------------------------------------------
     // Colors (Branding Core)
     // --------------------------------------------------------
-    --fs-color-main-0: #f1f2f3;
+    --fs-color-main-0: #06bd06;
+    --fs-color-main-1: #421f92;
+    --fs-color-main-2: #aed143;
+    --fs-color-main-3: #c00c98;
+    --fs-color-main-4: #d63535;
     // --------------------------------------------------------
     // Typography (Branding Core)
     // --------------------------------------------------------
@@ -28,10 +32,15 @@
     // --------------------------------------------------------
     // Refinements
     // --------------------------------------------------------
-
+--fs-color-primary-bkg: var(--fs-color-main-4);
     // --------------------------------------------------------
     // FS UI Components
     // --------------------------------------------------------
     // Add here the customizations for FastStore UI components.
+    .section {
+      [data-fs-newsletter] {
+        --fs-newsletter-text-color:var(--fs-color-main-4);
+      }
+    }
   }
 }
